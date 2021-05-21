@@ -2,7 +2,7 @@ function convertFahrToCelsius(fahr) {
     let parsedfahr;
   
     if (!Array.isArray(fahr)) {
-      parsedfahrenheit = parseInt(fahr);
+      parsedfahr = parseInt(fahr);
     }
   
     if (isNaN(parsedfahr)) {
